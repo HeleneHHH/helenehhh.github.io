@@ -225,3 +225,23 @@ footer{padding: var(--space-6) 0; border-top:1px solid var(--line); color:var(--
 .hero-inner {
     align-items: center;
 }
+
+
+
+#about {
+    padding: 80px 0;
+}
+
+#about .section-title {
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: left; /* eller center hvis du vil */
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 750px;
+    color: var(--muted-ink);
+}
